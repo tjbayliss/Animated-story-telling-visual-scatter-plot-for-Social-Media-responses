@@ -1,0 +1,22 @@
+{
+    "vars" : { 
+			"data": ["news_data_plot_4_2_crime.csv","news_data_plot_4_1_police.csv","news_data_plot_3_sizeBasedOnRelevance.csv","news_data_plot_2_sizeBasedOnNewspaper.csv","news_data_plot_1_scatterplot.csv","news_data_plot_0_lowerbarchart.csv"],
+            "margin_sm": [15, 5, 15, 50],
+            "margin_md": [15, 5, 15, 50],
+            "margin_lg": [15, 5, 15, 50],
+            "aspectRatio_sm" :  [1,1],
+            "aspectRatio_md" :  [1,1],
+            "aspectRatio_lg" : [1,1],
+            "mobileBreakpoint" : 610,
+            "threshold" : 5.0,
+            "variables" : [ "count1" , "count2" ],
+            "stories" : [ "saville" , "cliff" ],
+			"yAxisLabels": ["Positive sentiment", "Negative sentiment"],
+			"keyPoints" : [
+				{ "date":"01/04/2000" , "count1":79 , "count2":-5 , "story":"Media Story1" , "value1":50 , "value2":150 },
+				{ "date":"01/08/2000" , "count1":-69 , "count2":20 , "story":"Media Story1" , "value1":50 , "value2":150 }
+			]
+	}
+}
+
+
